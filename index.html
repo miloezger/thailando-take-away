@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="http://www.thailando.ch/assets/holidaycompany/build/build.css?v2" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css"> <!-- TODO: Integrate Styles -->
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  <title>take-away</title>
+</head>
+<body>
+<div id="container" class="row">
+  <div id="main" class="columns  large-push-3 large-9  medium-12 small-12">
+    <div class="inside">
+      <div class="mod_article first last block" id="take-away-vorspeisen">
+
+        <!-- Dish -->
+        <div class="row dish" data-id="1301" data-name="Kao Tang Naa Tang" data-price="9.50" data-image="http://www.thailando.ch/files/Thailando/Inhalt/Take Away/alb-thai1301.jpg"> <!-- TODO: Add data-attr to Dish ce-element -->
+          <div class="small-8 small-offset-2 medium-4 medium-offset-0 columns">
+            <figure class="image_container">
+              <img class="image" src="http://www.thailando.ch/files/Thailando/Inhalt/Take Away/alb-thai1301.jpg">
+            </figure>
+          </div>
+          <div class="small-12 medium-8 columns">
+            <div>
+              <h3>Kao Tang Naa Tang</h3>
+              <p>Riesencrevetten auf gehacktem Kalbfleisch, Zwiebel &amp; Kokosnussmilch, dazu gebackener Reis</p>
+              <p class="details">
+                Nr. 1301
+                <br> Preis: 9.50 CHF
+                <br> Schärfe: mild </p>
+                <div class="cd-cart-teaser-controls"> <!-- TODO: Add div to Dish ce-element -->
+                  <button class="add-to-cart">
+                      Bestellen
+                    </button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dish -->
+        <div class="row dish" data-id="1302" data-name="Gai Satay" data-price="12.50" data-image="http://www.thailando.ch/files/Thailando/Inhalt/Take Away/alb-thai1302.jpg"> <!-- TODO: Add data-attr to Dish ce-element -->
+          <div class="small-8 small-offset-2 medium-4 medium-offset-0 columns">
+            <figure class="image_container">
+              <img class="image" src="http://www.thailando.ch/files/Thailando/Inhalt/Take Away/alb-thai1302.jpg">
+            </figure>
+          </div>
+          <div class="small-12 medium-8 columns">
+            <div>
+              <h3>Gai Satay</h3>
+              <p>Marinierte Pouletspiesschen mit Erdnusssauce.</p>
+              <p class="details">
+                Nr. 1302
+                <br> Preis: 12.50 CHF
+                <br> Schärfe: mild </p>
+                <div class="cd-cart-teaser-controls"> <!-- TODO: Add div to Dish ce-element -->
+                    <button class="add-to-cart">
+                        Bestellen
+                      </button>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Cart -->
+<div class="cd-cart-container empty">
+	<a href="#0" class="cd-cart-trigger">
+		Cart
+		<span id="count-cart"></span> <!-- .count -->
+	</a>
+
+	<div class="cd-cart">
+		<div class="wrapper">
+			<header>
+				<h2>Ihre Bestellung</h2>
+			</header>
+			
+			<div class="body">
+        <ul id="show-cart">
+					<!-- products added to the cart will be inserted here using JavaScript -->
+				</ul>
+			</div>
+
+			<footer>
+				<a href="checkout.html" class="checkout btn"><em>Jetzt bestellen - <span id="total-cart"></span> CHF</em></a>
+			</footer>
+		</div>
+	</div> <!-- .cd-cart -->
+</div> <!-- cd-cart-container -->
+
+
+<script src="js/shoppingCart.js"></script>
+<script  src="js/index.js"></script>
+</body>
+</html>

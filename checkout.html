@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="http://www.thailando.ch/assets/holidaycompany/build/build.css?v2" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- TODO: Integrate Styles -->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <title>checkout</title>
+</head>
+
+<body>
+    <div id="container" class="row">
+        <div id="main" class="columns  large-push-3 large-9  medium-12 small-12">
+            <div class="inside">
+                <div class="mod_article first last block">
+
+
+                    <div class="ce_form last tableless block" style="margin-top:20px;">
+
+
+                        <form action="de/take-away/bestellung.html" id="f49" method="post" enctype="application/x-www-form-urlencoded" class="custom">
+                            <div class="formbody">
+                                <input type="hidden" name="FORM_SUBMIT" value="auto_form_49">
+                                <input type="hidden" name="REQUEST_TOKEN" value="48df54f73f64e3639b784effd142d3dd">
+
+
+                                <div class="widget widget-headline headline">
+                                    <h4>Meine Bestellung</h4>
+                                </div>
+
+                                <div class="widget widget-textarea">
+                                    <label for="field_id">
+                                        ### Hidden Form Field ###</label>
+
+                                    <textarea name="bemerkungen" id="field_id" class="textarea" rows="10" cols="40" disabled></textarea>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="columns large-12 small-12">
+                                        <div class="row widget">
+                                            <div class="large-3 small-12 columns">
+                                                <label for="ctrl_1106" class="select mandatory inline">
+                                                    <span class="invisible">Pflichtfeld </span>Abholzeit
+                                                    <span class="mandatory">*</span>
+                                                </label>
+                                            </div>
+                                            <div class="large-9 small-12 columns controls">
+
+                                                <select name="abholzeit" id="ctrl_1106" class="select mandatory inline" required="">
+                                                    <optgroup label="Mittags">
+                                                        <option value="12:00 Uhr">12:00 Uhr</option>
+                                                        <option value="12:30 Uhr">12:30 Uhr</option>
+                                                        <option value="13:00 Uhr">13:00 Uhr</option>
+                                                        <option value="13:30 Uhr">13:30 Uhr</option>
+                                                        <option value="14:00 Uhr">14:00 Uhr</option>
+                                                        <option value="14:30 Uhr">14:30 Uhr</option>
+                                                        <option value="15:00 Uhr">15:00 Uhr</option>
+                                                    </optgroup>
+                                                    <optgroup label="Abends">
+                                                        <option value="18:00 Uhr">18:00 Uhr</option>
+                                                        <option value="18:30 Uhr">18:30 Uhr</option>
+                                                        <option value="19:00 Uhr">19:00 Uhr</option>
+                                                        <option value="19:30 Uhr">19:30 Uhr</option>
+                                                        <option value="20:00 Uhr">20:00 Uhr</option>
+                                                        <option value="20:30 Uhr">20:30 Uhr</option>
+                                                        <option value="21:00 Uhr">21:00 Uhr</option>
+                                                        <option value="21:30 Uhr">21:30 Uhr</option>
+                                                    </optgroup>
+                                                </select>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="widget widget-explanation explanation">
+                                    <p>
+                                        <em>Bestellungen sind&nbsp;frühestens 30 Min. nach Eingang&nbsp;Ihrer Bestellung abholbereit.</em>
+                                    </p>
+                                </div>
+
+
+
+                                <div class="widget widget-headline headline">
+                                    <h4>Kontakt Informationen</h4>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="columns large-12 small-12">
+                                        <div class="row widget">
+                                            <div class="large-3 small-12 columns">
+                                                <label for="ctrl_1111" class="mandatory inline">
+                                                    <span class="invisible">Pflichtfeld </span>Name
+                                                    <span class="mandatory">*</span>
+                                                </label>
+                                            </div>
+                                            <div class="large-9 small-12 columns controls">
+
+                                                <input type="text" name="name" id="ctrl_1111" class="text mandatory inline" value="" required="">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="columns large-12 small-12">
+                                        <div class="row widget">
+                                            <div class="large-3 small-12 columns">
+                                                <label for="ctrl_1112" class="mandatory inline">
+                                                    <span class="invisible">Pflichtfeld </span>Vorname
+                                                    <span class="mandatory">*</span>
+                                                </label>
+                                            </div>
+                                            <div class="large-9 small-12 columns controls">
+
+                                                <input type="text" name="vorname" id="ctrl_1112" class="text mandatory inline" value="" required="">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="columns large-12 small-12">
+                                        <div class="row widget">
+                                            <div class="large-3 small-12 columns">
+                                                <label for="ctrl_1113" class="mandatory inline">
+                                                    <span class="invisible">Pflichtfeld </span>E-Mail
+                                                    <span class="mandatory">*</span>
+                                                </label>
+                                            </div>
+                                            <div class="large-9 small-12 columns controls">
+
+                                                <input type="email" name="email" id="ctrl_1113" class="text mandatory inline" value="" required="">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="columns large-12 small-12">
+                                        <div class="row widget">
+                                            <div class="large-3 small-12 columns">
+                                                <label for="ctrl_1114" class="mandatory inline">
+                                                    <span class="invisible">Pflichtfeld </span>Telefon
+                                                    <span class="mandatory">*</span>
+                                                </label>
+                                            </div>
+                                            <div class="large-9 small-12 columns controls">
+
+                                                <input type="tel" name="telefon" id="ctrl_1114" class="text mandatory inline" value="" required="">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="widget widget-textarea">
+                                    <label for="ctrl_1115">
+                                        Bemerkungen </label>
+
+
+                                    <textarea name="bemerkungen" id="ctrl_1115" class="textarea" rows="4" cols="40"></textarea>
+
+                                </div>
+
+
+
+                                <div class="widget widget-explanation explanation">
+                                    <p>
+                                        <em>Bitte füllen Sie alle mit * gekennzeichneten Felder aus.</em>
+                                    </p>
+                                </div>
+
+                                <div class="row submit-row">
+                                    <div class="submit_container columns large-9 large-push-3">
+                                        <input type="reset" value="Abbrechen">
+                                        <input type="submit" id="ctrl_1117" class="submit" value="Bestellung abschicken"> </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="index.html" style="color:#FFF;">Zurück</a>
+
+
+    <script src="js/shoppingCart.js"></script>
+    <script  src="js/index.js"></script>
+</body>
+
+</html>
